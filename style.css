@@ -1,0 +1,205 @@
+/*  Font(s) */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+/* CSS RESET 
+src https://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    /* font-family:'Courier Prime', monospace; */
+    font-family: 'Open Sans Condensed', sans-serif;
+	vertical-align: baseline;
+}
+
+
+.titles {
+    font-size:20px;
+    text-align:left;
+    font-weight: bold;
+    padding:15px;
+}
+
+span    {
+    font-size:20px;
+}
+
+.left   {
+    font-size:20px;
+    text-align:left;
+    float:left;
+}
+
+.right  {
+    text-align: right;
+    float:right;
+}
+
+.logos  {
+    width:65px;
+    height:65px;
+    float:left;
+    margin:10px;
+    border-radius:50%;
+}
+
+.ul_left{
+    float:left;
+}
+
+.ul_right{
+    float:right;
+}
+
+.ul_invis{
+    list-style: none;
+}
+
+.info   {
+    font-size:20px;
+}
+
+.li     {
+    margin:10px;
+    padding:10px;
+}
+
+.skills_li{
+
+}
+
+.logos_skills{
+    width:80px;
+    height:80px;    
+}
+
+hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    color:black;
+}
+
+html, body    {
+    background-color:white;
+    height:100%;
+}
+
+#header {
+    padding:0px 500px;
+    height:75px;
+    background-color:#373F51;
+}
+
+.header {
+    font-size:20px;
+    padding:25px;
+    color:white;
+    float:left;
+}
+
+div#header a{
+    text-decoration: none;
+}
+
+div {
+    margin: 0px auto;
+    padding:10px 500px;
+    background-color:#D8DBE2;
+    overflow: auto;
+}
+
+hr {
+    border: 1px solid #2C365E;
+    border-radius: 5px;
+}
+
+ul#nav li{
+    float:right;
+    font-size:20px;
+    color:white;
+    display:inline;
+    margin:10px;
+    padding:10px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+ul#nav a:link{
+    color:white;
+    text-decoration: none;
+}
+
+ul#nav a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+ul#nav a:hover{
+    color:lightblue;
+}
+
+ul#nav a:active{
+    color:lightpink;
+}
+
+ul#projectsList li{
+    font-size:20px;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+.project_li {
+    width:850px;
+    margin:25px;
+}
+
+.project_li_text{
+    color:blue;
+}
+
+.project_li_thumb {
+
+}
+
+#aboutMe {
+    margin: 0px auto;
+    padding:10px 250px;
+    width:auto;
+    background-color:#a8b9cf;
+}
+
+#aboutMeImg {
+    padding:0px 300px;
+}
+
+#Resume p{
+    background-color:#D8DBE2;
+    text-align: center;
+    text-emphasis: strong;
+    font-size:20px;
+    padding:25px;
+}
+
+#projects_row{
+    padding:0px;
+    margin:0px;
+}
